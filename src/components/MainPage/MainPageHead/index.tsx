@@ -1,6 +1,6 @@
 import { Avatar, Container, Details, Location, Name, Position } from "./index.styled";
-import ava from '/public/img/ava.jpg'
-import { prefix } from "../../../../utils/prefix";
+// import ava from '/public/img/ava.jpg'
+// import { prefix } from "../../../../utils/prefix";
 
 const MainPageHead = () => {
   return (
@@ -8,7 +8,7 @@ const MainPageHead = () => {
         <Container>
           <div>
             <Avatar 
-            src={prefix + ava.src} 
+            src={process.env.PUBLIC_URL + '/img/ava.jpg'} 
             width={180} 
             height={180} 
             alt='avatar'/>
