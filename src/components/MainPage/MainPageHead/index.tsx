@@ -1,12 +1,12 @@
 import { Avatar, Container, Details, Location, Name, Position } from "./index.styled";
-import ava from '/public/img/ava.jpg'
+// import ava from '/public/img/ava.jpg'
 
 const MainPageHead = () => {
   return (
     <>
         <Container>
           <div>
-            <Avatar src={ava} alt='avatar'/>
+{/*             <Avatar src={ava} alt='avatar'/> */}
           </div>
           <Details>
             <Name>
