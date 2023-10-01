@@ -1,3 +1,13 @@
+@import '../public/fonts/Roboto/stylesheet.css';
+
 body {
   margin: 0px;
+  /* font-size: 14px; */
+  font-weight: 700;
+  font-family: 'robotothin'; 
+}
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
 }
