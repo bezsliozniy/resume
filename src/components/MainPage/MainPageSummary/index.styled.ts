@@ -22,6 +22,7 @@ export const Label = styled.div`
 `
 
 export const Paragraph = styled.p`
-  text-indent: 10px;
-  margin: 5px 0px 0px;
+  font-size: 17px;
+  text-indent: 40px;
+  margin: 10px 0px 0px;
 `

@@ -16,10 +16,20 @@ const MainPageSummary = () => {
       } 
       label="Summary" />
       <Paragraph>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias consequuntur aspernatur velit cumque quaerat laborum commodi ab, beatae excepturi odio at ipsum esse deleniti tenetur aut perspiciatis! Nam, quaerat.
+        Hey there! My name is Oleksiy, but 
+        you can call me Lex - it is simplier :). 
+        I am an open to work web-developer from Ukraine with 
+        over 1 year of freelance experience. I have been involved 
+        in the development of more than ten web-applications, 
+        some of which was developed entirely from scratch by myself.
       </Paragraph>
       <Paragraph>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error eum ducimus molestias, laudantium ratione at quidem, quae, dolorum dolor cum esse officia a! Cupiditate, qui! Libero nostrum porro at ipsam.
+        Besides work, I also enjoy sculpting with polymer 
+        clay, sports, playing the guitar, and discussing 
+        movies. I'm an open person, so feel free to ask 
+        me anything you want to know. You can reach me 
+        through the contact information provided above this 
+        section
       </Paragraph>
     </Container>
   )
