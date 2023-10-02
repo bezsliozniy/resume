@@ -10,7 +10,8 @@ export const AppWrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  background-color: ${colors.white};
+  background-color: #fff;
+  /* background-color: ${colors.white}; */
   width: 100%;
   max-width: 800px;
 
