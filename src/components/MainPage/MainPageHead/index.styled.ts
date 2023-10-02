@@ -34,7 +34,7 @@ export const Name = styled.div`
   font-size: 30px;
   margin-bottom: 10px;
   -webkit-animation: fadeIn 0.5s forwards;
-  -webkit-animation-delay: 0.5ms;
+  -webkit-animation-delay: 1s;
   animation: fadeIn 0.5s forwards;
   opacity: 0;
   animation-delay: 1s;
@@ -46,7 +46,7 @@ export const Name = styled.div`
 `
 export const Location = styled.span`
 -webkit-animation: fadeIn 0.5s forwards;
-  -webkit-animation-delay: 0.5ms;
+  -webkit-animation-delay: 1.4s;
   animation: fadeIn 0.5s forwards;
   opacity: 0;
   animation-delay: 1.4s;
@@ -57,7 +57,7 @@ export const Position = styled.div`
   font-size: 20px;
 
   -webkit-animation: fadeIn 0.5s forwards;
-  -webkit-animation-delay: 0.5ms;
+  -webkit-animation-delay: 1.2s;
   animation: fadeIn 0.5s forwards;
   opacity: 0;
   animation-delay: 1.2s;

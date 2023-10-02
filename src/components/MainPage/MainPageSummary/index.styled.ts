@@ -5,10 +5,10 @@ export const Container = styled.div`
   left: -100px;
   width: 100%;
   -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 0.5ms;
+  -webkit-animation-delay: 2s;
   animation: slide 0.5s forwards;
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 2s;
 `
 
 export const Headline = styled.div`
