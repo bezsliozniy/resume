@@ -1,5 +1,5 @@
 import { Avatar, Container, Details, Location, Name, Position } from "./index.styled";
-import ava from '../../../../public/img/ava.jpg'
+import ava from '../../../../public/img/AVA.jpg'
 import { prefix
  } from "../../../../utils/prefix";
 const MainPageHead = () => {
