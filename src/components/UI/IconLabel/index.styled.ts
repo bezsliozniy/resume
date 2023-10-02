@@ -10,6 +10,15 @@ export const Container = styled.div<{fullWidth?: boolean}>`
   border-radius: 10px;
   padding: 3px 0px;
   align-items: center;
+  background-color: ${colors.white};
+
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${colors.darkMint};
+    color: white;
+  }
 `
 
 export const Label = styled.div`

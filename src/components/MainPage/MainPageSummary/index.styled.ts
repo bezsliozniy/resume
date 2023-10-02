@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
+  position: absolute;
+  left: -100px;
+  width: 100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  opacity: 0;
+  animation-delay: 2s;
 `
 
 export const Headline = styled.div`
   display: flex;
-  /* max-width: 100px; */
   align-items: center;
-  /* justify-content: space-between; */
   font-size: 20px;
 `
 
@@ -17,6 +22,7 @@ export const Label = styled.div`
 `
 
 export const Paragraph = styled.p`
-  text-indent: 10px;
-  margin: 5px 0px 0px;
+  font-size: 17px;
+  text-indent: 40px;
+  margin: 10px 0px 0px;
 `
