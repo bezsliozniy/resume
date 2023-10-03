@@ -2,6 +2,7 @@ import { Container } from "./index.styled";
 import MainPageHead from "../MainPageHead";
 import MainPageContacts from "../MainPageContacts";
 import MainPageSummary from "../MainPageSummary";
+import MainPageExperience from "../MainPageExperience";
 
 const MainPageScreen = () => {
   return (
@@ -9,6 +10,7 @@ const MainPageScreen = () => {
       <MainPageHead />
       <MainPageContacts />
       <MainPageSummary />
+      <MainPageExperience />
     </Container>
   );
 }

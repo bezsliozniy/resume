@@ -6,8 +6,6 @@ import {
   NextScript,
 } from 'next/document';
 import { prefix } from '../utils/prefix';
-import icon from '../public/img/favicon.ico'
-import iconPng from '../public/img/favicon.png'
 
 export default function MyDocument() {
   return (

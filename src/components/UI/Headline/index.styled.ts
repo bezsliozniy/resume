@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const Label = styled.div`
   margin-left: 10px;
+  letter-spacing: 3px;
 `
 
 export const Paragraph = styled.p`
