@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import { breakpoints, colors } from "../../../styles/variables";
+import { prefix } from "../../../utils/prefix";
 
 export const AppWrapper = styled.div`
   min-height: 100vh;
   /* background-image: url('/img/bg2.png'); */
-  background-image: url('/img/bg2_blurred.png');
+  background-image: url(${prefix  + '/img/bg2_blurred.png'});
   background-size: cover;
   overflow: hidden;
   /* background-color: ${colors.lightMint}; */
