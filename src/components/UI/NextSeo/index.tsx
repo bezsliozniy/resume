@@ -2,6 +2,9 @@ import { NextSeo as NextSeoBase } from "next-seo";
 
 import { LanguageType } from "../../../../types";
 import { useEffect, useState } from "react";
+import { prefix } from "../../../../utils/prefix";
+import icon from '/public/img/icon.png';
+
 
 interface NextSeoProps {
   title: string;
@@ -25,7 +28,7 @@ const NextSeo: React.FC<NextSeoProps> = ({
       setUrl(window.location.href)
     }
   }, [baseUrl])
-  
+
   return (
     <NextSeoBase
       title={title}
@@ -33,13 +36,13 @@ const NextSeo: React.FC<NextSeoProps> = ({
       openGraph={{
         title: title,
         description: description,
-        images: image ? [
-          {
-            url: image,
-            width: 968,
-            height: 504
-          }
-        ] : [],
+        images: [
+          // {
+          //   url: prefix === '' ? icon.src : prefix + '/img/icon.png',
+          //   width: 968,
+          //   height: 504
+          // }
+        ],
         type: 'website',
         locale: language,
         url,
