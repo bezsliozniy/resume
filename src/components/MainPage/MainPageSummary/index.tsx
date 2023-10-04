@@ -36,7 +36,6 @@ const MainPageSummary = () => {
 
       </SectionContainer>
     </div>
-
   )
 };
 

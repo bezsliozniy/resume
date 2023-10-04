@@ -3,6 +3,7 @@ import MainPageHead from "../MainPageHead";
 import MainPageContacts from "../MainPageContacts";
 import MainPageSummary from "../MainPageSummary";
 import MainPageExperience from "../MainPageExperience";
+import MainPageEducation from "../MainPageEducation";
 
 const MainPageScreen = () => {
   return (
@@ -11,6 +12,7 @@ const MainPageScreen = () => {
       <MainPageContacts />
       <MainPageSummary />
       <MainPageExperience />
+      <MainPageEducation />
     </Container>
   );
 }
