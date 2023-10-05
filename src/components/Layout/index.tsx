@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import Footer from "../MainPage/MainPageFooter";
+import Footer from "../UI/Footer";
 import Header from "../UI/Header";
 import { AppWrapper, Content } from "./index.styled";
 
