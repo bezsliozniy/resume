@@ -1,12 +1,15 @@
 import styled from "styled-components"
 
-export const AnimationContainer = styled.div`
+export const AnimationContainer = styled.div<{inViewport}>`
   transform: translate(-100px);
   left: -100px;
   width: 100%;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 0.5s forwards;
-  opacity: 0;
-  animation-delay: 2s;
+  ${({inViewport}) => inViewport ? `
+  -webkit-animation-delay: 0s;
+    -webkit-animation: slide 0.5s forwards;
+    animation-delay: 0s;
+    animation: slide 0.5s forwards;
+  ` : `
+    opacity: 0;
+  `}
 `
