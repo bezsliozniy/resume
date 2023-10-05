@@ -4,6 +4,8 @@ export const Skills = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+
   /* justify-content: space-; */
   height: fit-content;
   gap: 7px;

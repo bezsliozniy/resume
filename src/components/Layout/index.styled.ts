@@ -26,7 +26,7 @@ export const Content = styled.div`
 
   display: flex;
   flex-direction: column;
-  padding: 5px 90px 80px;
+  padding: 5px 90px 10px;
 
   &::-webkit-scrollbar {
     width: 8px;
