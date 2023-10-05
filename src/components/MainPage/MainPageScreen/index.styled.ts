@@ -5,7 +5,7 @@ export const Container = styled.div`
     margin-top: 30px;
   }
   
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   &.hidden {
     opacity: 0;
   }

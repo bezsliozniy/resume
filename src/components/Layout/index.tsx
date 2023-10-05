@@ -1,4 +1,5 @@
 import { FC, ReactNode } from "react";
+import Footer from "../MainPage/MainPageFooter";
 import Header from "../UI/Header";
 import { AppWrapper, Content } from "./index.styled";
 
@@ -12,6 +13,7 @@ const Layout: FC<LayoutProps> = ({children}) => {
       <Content id="content">
         <Header />
         {children}
+        <Footer />
       </Content>
     </AppWrapper>
   )

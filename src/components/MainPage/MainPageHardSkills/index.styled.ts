@@ -5,6 +5,7 @@ export const Skills = styled.div`
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
+  justify-content: space-between;
   gap: 7px;
 
   opacity: 0;
