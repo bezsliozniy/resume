@@ -9,7 +9,7 @@ type LayoutProps = {
 const Layout: FC<LayoutProps> = ({children}) => {
   return (
     <AppWrapper>
-      <Content>
+      <Content id="content">
         <Header />
         {children}
       </Content>

@@ -1,13 +1,19 @@
+"use client"
 import { FC, ReactNode } from "react";
 import { AnimationContainer } from "./index.styled";
+import {useInView} from 'react-intersection-observer';
 
 type SectionContainerProps = {
   children: ReactNode;
 }
 
 const SectionContainer: FC<SectionContainerProps> = ({ children }) => {
+  const {ref, inView} = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  })
   return (
-    <AnimationContainer>
+    <AnimationContainer inViewport={inView} ref={ref}>
       {children}
     </AnimationContainer>
   )
