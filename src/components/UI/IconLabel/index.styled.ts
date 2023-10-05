@@ -1,22 +1,23 @@
 import styled from "styled-components";
 import { colors } from "../../../../styles/variables";
 
-export const Container = styled.div<{fullWidth?: boolean}>`
+export const Container = styled.div<{fullWidth?: boolean, color?: string}>`
   position: relative;
   width: ${({fullWidth}) => fullWidth && '100%'};
   display: flex;
   gap: 10px;
-  border: 1px solid ${colors.darkMint};
+  background-color: ${({color}) =>  color ? color :  colors.white};
+  border: 1px solid ${({color}) =>  color ? color :  colors.darkMint};
+  color: ${({color}) =>  color && '#fff'};
   border-radius: 10px;
   padding: 3px 0px;
   align-items: center;
-  background-color: ${colors.white};
 
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   cursor: pointer;
 
   &:hover {
-    background-color: ${colors.darkMint};
+    background-color: ${({color}) =>  color ? color :  colors.darkMint};
     color: white;
   }
 `

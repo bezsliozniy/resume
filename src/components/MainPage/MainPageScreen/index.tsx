@@ -4,6 +4,8 @@ import MainPageContacts from "../MainPageContacts";
 import MainPageSummary from "../MainPageSummary";
 import MainPageExperience from "../MainPageExperience";
 import MainPageEducation from "../MainPageEducation";
+import MainPageHardSkills from "../MainPageHardSkills";
+import MainPageSoftSkills from "../MainPageSoftSkills";
 
 const MainPageScreen = () => {
   return (
@@ -13,6 +15,8 @@ const MainPageScreen = () => {
       <MainPageSummary />
       <MainPageExperience />
       <MainPageEducation />
+      <MainPageHardSkills />
+      <MainPageSoftSkills />
     </Container>
   );
 }

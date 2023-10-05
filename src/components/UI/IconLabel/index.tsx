@@ -5,13 +5,15 @@ type IconLabelProps = {
   icon?: ReactNode;
   label?: string;
   fullWidth?: boolean;
+  color?: string;
 }
 
 const IconLabel: FC<IconLabelProps> = ({
-  icon, label, fullWidth
+  icon, label, fullWidth, color
 }) => {
+
   return (
-    <Container fullWidth={fullWidth}>
+    <Container fullWidth={fullWidth} color={color}>
       <Icon>
         {icon}
       </Icon>
