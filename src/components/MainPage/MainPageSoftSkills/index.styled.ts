@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { breakpoints } from "../../../../styles/variables";
 
 export const Skills = styled.div`
   width: 100%;
