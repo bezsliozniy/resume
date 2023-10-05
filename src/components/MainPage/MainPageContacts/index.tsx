@@ -5,11 +5,11 @@ import { Contacts } from "./index.styled";
 
 const items = [
   {
-    label: "+3800000000",
+    label: "+380974456648",
     icon: <AiOutlinePhone />,
   },
   {
-    label: "mytwump@gmail.com",
+    label: "bezsliozniy@gmail.com",
     icon: <AiOutlineMail />,
   },
   {
@@ -17,7 +17,7 @@ const items = [
     icon: <AiOutlineHome />,
   },
   {
-    label: "TTSTTS",
+    label: "ZHATK, PNU",
     icon: <PiGraduationCapLight />,
   },
 ] 
