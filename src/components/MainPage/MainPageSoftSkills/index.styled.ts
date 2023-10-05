@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../../../../styles/variables";
 
 export const Skills = styled.div`
   width: 100%;
@@ -23,6 +24,14 @@ export const Skills = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: ${breakpoints.sm}) {
+      width: 47%;
+      >div {
+        width: 100% !important;
+      }
+    }
+
     > div {
       padding: 2px;
       width: fit-content;
