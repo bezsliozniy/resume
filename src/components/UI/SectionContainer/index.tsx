@@ -10,6 +10,7 @@ type SectionContainerProps = {
 const SectionContainer: FC<SectionContainerProps> = ({ children }) => {
   const {ref, inView} = useInView({
     threshold: 0.5,
+    delay: 500,
     triggerOnce: true,
   })
   return (

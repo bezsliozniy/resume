@@ -7,12 +7,12 @@ import SectionContainer from "../../UI/SectionContainer";
 const items = [
   {
     date: '2017 - 2021',
-    university: 'Kyiv PedUniversity',
+    university: 'Zhytomir agrotechnical college',
     title: 'Computer Science | Junior',
   },
   {
-    date: 'Kyiv PMC',
-    university: '2021 - 2023',
+    date: '2021 - 2023',
+    university: 'Pollissya National University',
     title: 'Computer Science | Banchelor',
   }
 ]
