@@ -5,14 +5,17 @@ import {useInView} from 'react-intersection-observer';
 
 type SectionContainerProps = {
   children: ReactNode;
+  index?: number
 }
 
 const SectionContainer: FC<SectionContainerProps> = ({ children }) => {
   const {ref, inView} = useInView({
-    threshold: 0.5,
-    delay: 500,
+    threshold: 0.2,
+    delay: 200,
     triggerOnce: true,
   })
+
+
   return (
     <AnimationContainer inViewport={inView} ref={ref}>
       {children}

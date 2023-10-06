@@ -7,7 +7,7 @@ import SectionContainer from "../../UI/SectionContainer";
 const MainPageSummary = () => {
   return (
     <div>
-      <SectionContainer>
+      <SectionContainer index={1}>
         <Headline 
         icon={
           <Icon 

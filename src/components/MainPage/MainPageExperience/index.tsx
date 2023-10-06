@@ -22,7 +22,7 @@ const MainPageExperience = () => {
   
   return (
     <div>
-      <SectionContainer>
+      <SectionContainer index={2}>
         <Headline 
         icon={
           <Icon 
