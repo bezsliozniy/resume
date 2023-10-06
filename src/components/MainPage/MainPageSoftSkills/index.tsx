@@ -2,7 +2,7 @@ import Icon from "../../UI/Icon";
 import IconLabel from "../../UI/IconLabel";
 import SectionContainer from "../../UI/SectionContainer";
 import { Skills } from "./index.styled";
-import {AiOutlineLaptop} from "react-icons/ai";
+import {BiBrain} from "react-icons/bi";
 import Headline from "../../UI/Headline";
 import { colors } from "../../../../styles/variables";
 
@@ -19,7 +19,7 @@ const MainPageSoftSkills = () => {
         icon={
           <Icon 
           width="30px" 
-          element={<AiOutlineLaptop fontSize={16}/>} 
+          element={<BiBrain fontSize={16}/>} 
           variant='outlined' 
           />
         } 
