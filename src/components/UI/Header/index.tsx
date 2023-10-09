@@ -6,9 +6,9 @@ const Header = () => {
       <div>
         bezsliozniy
       </div>
-      <div>
+      {/* <div>
         en/ua
-      </div>  
+      </div>   */}
   </Container>
   )
 }

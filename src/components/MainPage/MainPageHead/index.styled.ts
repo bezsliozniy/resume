@@ -11,6 +11,7 @@ export const Container = styled.div`
 export const Avatar = styled(Image)`
   width: 180px;
   height: auto;
+  border-radius: 10%;
   
   -webkit-animation: fadeIn 0.5s forwards;
   -webkit-animation-delay: 0.5ms;
