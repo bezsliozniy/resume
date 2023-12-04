@@ -7,6 +7,7 @@ import MainPageEducation from "../MainPageEducation";
 import MainPageHardSkills from "../MainPageHardSkills";
 import MainPageSoftSkills from "../MainPageSoftSkills";
 import { useEffect, useState } from "react";
+import MainPageProjects from "../MainPageProjects";
 
 const MainPageScreen = () => {
   const [headLoaded, setHeadLoaded] = useState(false);
@@ -22,8 +23,9 @@ const MainPageScreen = () => {
       <MainPageContacts />
       {headLoaded && (<>
         <MainPageSummary />
-        <MainPageExperience />
         <MainPageEducation />
+        <MainPageExperience />
+        <MainPageProjects />
         <MainPageHardSkills />
         <MainPageSoftSkills />
       </>)}

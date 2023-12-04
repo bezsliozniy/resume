@@ -18,20 +18,10 @@ const MainPageSummary = () => {
         } 
         label="SUMMARY" />
         <Paragraph>
-          Hey there! My name is Oleksiy, but 
-          you can call me Lex - it is simplier :). 
-          I am an open to work web-developer from Ukraine with 
-          over 1 year of freelance experience. I have been involved 
-          in the development of more than ten web-applications, 
-          some of which was developed entirely from scratch by myself.
+          Hey there! My name is Oleksiy, but you can call me Lex - it is simple. I am an open to work web-developer from Ukraine with over 1.5 years of commercial experience. I have been involved in the development of various web-applications, some of which was developed entirely from scratch by myself.
         </Paragraph>
         <Paragraph>
-          Besides work, I also enjoy sculpting with polymer 
-          clay, sports, playing the guitar, and discussing 
-          movies. I'm an open person, so feel free to ask 
-          me anything you want to know. You can reach me 
-          through the contact information provided above this 
-          section
+          I am a measured, self-disciplined developer who loves his work and values loyalty between the employee and the job. You can reach me through the contact information provided above this section
         </Paragraph>
 
       </SectionContainer>
