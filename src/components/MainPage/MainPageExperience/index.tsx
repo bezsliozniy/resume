@@ -10,13 +10,19 @@ const MainPageExperience = () => {
       date: "Summer 2020",
       type: "Non-Commercial",
       title: "Trainee .Net FullStack Developer | ANKO corp.",
-      projects: "Projects: -",
+      projects: "Projects: fullstack todo app",
     },
     {
       date: "Sep 2022 - Nov 2023",
       type: "Commercial",
-      title: "Junior Front-End Developer | Freelance with Nazar Martyniuk",
-      projects: "Projects: 2 Crypto exchange, 1 admin panel, 1 online-shop, 5 landings",
+      title: "Junior React Front-End Developer | Freelance with Nazar Martyniuk",
+      projects: "Projects: crypto exchanges, admin panel, online-shop, landings",
+    },
+    {
+      date: "Nov 2023 - now",
+      type: "Commercial",
+      title: "Junior React FullStack Developer | SPACEHUB",
+      projects: "Projects: admin panel",
     }
   ]
   

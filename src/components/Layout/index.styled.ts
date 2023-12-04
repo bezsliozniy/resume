@@ -22,7 +22,7 @@ export const Content = styled.div`
   overflow: auto;
   height: 100vh; 
   width: 100%;
-  max-width: 800px;
+  max-width:1000px;
 
   display: flex;
   flex-direction: column;
