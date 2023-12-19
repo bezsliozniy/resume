@@ -5,9 +5,9 @@ import { prefix } from "../../../utils/prefix";
 export const AppWrapper = styled.div`
   min-height: 100vh;
   /* background-image: url('/img/bg2.png'); */
-  background-image: url(${prefix  + '/img/bg2_blurred.png'});
+  /* background-image: url(${prefix  + '/img/bg2_blurred.png'}); */
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* background-color: ${colors.lightMint}; */
   color: ${colors.darkMint};
   display: flex;
@@ -19,7 +19,7 @@ export const AppWrapper = styled.div`
 
 export const Content = styled.div`
   background-color: #ffffffE6;
-  overflow: auto;
+  /* overflow: auto; */
   height: 100vh; 
   width: 100%;
   max-width:1000px;

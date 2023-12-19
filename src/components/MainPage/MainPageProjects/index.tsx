@@ -47,7 +47,7 @@ const MainPageProjects = () => {
       description: "A website for international civilian transportation."
     },
     {
-      title: "Novadash",
+      title: "NDA Project",
       description: "The second website, created for cryptocurrency trading on an exchange. During the development, the team adhered to Feature-Sliced Design. Regular code reviews were conducted, significantly enhancing many of my skills.",
     },
     {
@@ -56,7 +56,7 @@ const MainPageProjects = () => {
     },
     {
       title: "God Online",
-      description: "Landing page for charity foundation. I used I used the Open AI`s GPT API to implement a chatbot.",
+      description: "Landing page for charity foundation. I used the Open AI`s GPT API to implement a chatbot.",
     },
   ]
   
