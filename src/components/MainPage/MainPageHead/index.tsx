@@ -19,10 +19,18 @@ const MainPageHead = () => {
           </Name>
           <div>
             <Position>
-              Junior Front-end (React) | <span>600$</span>
+              Junior Front-end (React) | <span>800$</span>
               <br/>
             </Position>
             <Location>Remote/Office</Location>
+          </div>
+          <br />
+          <div>
+            <Location>
+              <b> 
+                • English Upper-Intermediate
+              </b>
+            </Location>
           </div>
         </Details>
       </Container>

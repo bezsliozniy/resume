@@ -33,7 +33,7 @@ const ExperienceSection: FC<ExperienceSectionItemProps> = ({items}) => {
               <div>{item.date}</div>
               <div>{item.type}</div>
               <div>{item.title}</div>
-              <div>{item.projects}</div>
+              {/* <div>{item.projects}</div> */}
             </Paragraph>
           </>
         )}

@@ -30,10 +30,10 @@ export const Paragraph = styled.div`
 `
 
 export const Item = styled.div`
-  max-width: 48%;
+  width: 48%;
   
   @media (max-width: ${breakpoints.sm}) {
-    max-width: 100%;
+    width: 100%;
   }
 `;
 

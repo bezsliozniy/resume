@@ -6,9 +6,9 @@ import {AiOutlineLaptop} from "react-icons/ai";
 import Headline from "../../UI/Headline";
 
 const items = [
-  ['React'], 
+  ['React', 'Wordpress'], 
   ['Next.js'], 
-  ['Typescript', 'C#'],
+  ['Typescript', 'JavaScript', 'C#', 'PHP'],
   ['react-intl'],
   ['RTK', 'Axios'], 
   ['SASS', 'styled-components'], 
